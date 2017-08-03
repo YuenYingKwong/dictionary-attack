@@ -15,11 +15,12 @@ window.onload = init;
 /* ADD YOUR CODE BELOW */
 
 function checkPassword() {
-   for (var x = 0; x != wordsList.length; x + 1 );
+ for (var x = 0; x != wordsList.length; x + 1 ){
     if (pw == worldlist[x]);
-    print()
+      document.getElementById ("results").value = ("password is weak")
     if (pw != worldlist[x]);
-    print()
+      document.getElementById ("results").value = ("password id ok")
+  }
   
   
 }
