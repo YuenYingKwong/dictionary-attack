@@ -15,7 +15,7 @@ window.onload = init;
 /* ADD YOUR CODE BELOW */
 
 function checkPassword() {
-  
+  var password = document.getElementById ("pw").value;
   for (var x = 0; x != wordsList.length; x + 1 ){
   if (pw == worldlist[x]);
       document.getElementById ("results").innerHTML = ("password is bad")
