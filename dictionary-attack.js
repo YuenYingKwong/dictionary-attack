@@ -15,7 +15,15 @@ window.onload = init;
 /* ADD YOUR CODE BELOW */
 
 function checkPassword() {
-
+  for (var pw = 0; pw != wordsList.length; pw + 1 );
+    if (pw == worldlist[pw]);
+    print ('your password match the dictionary, try again');
+    if (pw != worldlist[pw])
+    print ('your password is good')
+ 
+  
+  
+  
 }
 
 
