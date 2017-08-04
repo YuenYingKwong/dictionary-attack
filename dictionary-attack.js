@@ -20,8 +20,8 @@ function checkPassword() {
     if (password == wordsList[x]) {
         document.getElementById ("results").innerHTML = ("password is bad");
         
-    if (password != wordsList[x]) {
-        document.getElementById ("good").innerHTML = ("meh is ok")
+    elif (password != wordsList[x]) {
+        document.getElementById ("results").innerHTML = ("meh is ok")
         break;
       }
     }
