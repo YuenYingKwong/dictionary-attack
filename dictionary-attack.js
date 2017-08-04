@@ -20,14 +20,9 @@ function checkPassword() {
     if (password == wordsList[x]) {
         document.getElementById ("results").innerHTML = ("password is bad");
         break; 
-    }   
-    
-      }
-      document.getElementById ("results").innerHTML = ("meh is ok")
-      break;
-  
-  
-  
+    }
+  }
+      document.getElementById ("results").innerHTML = ("meh is ok");
 }
 
 
