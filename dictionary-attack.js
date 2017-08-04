@@ -18,11 +18,12 @@ function checkPassword() {
   var password = document.getElementById ("pw").value;
   for (var x = 0; x < wordsList.length; x++){
     if (password == wordsList[x]) {
-        document.getElementById ("results").innerHTML = ("password is bad");
+        document.getElementById("results").innerHTML = "password is bad";
         break; 
     }
     else {
-      document.getElementById ("results").innerHTML = ("meh is ok");
+      document.getElementById("results").innerHTML = "meh is ok";
+  }
   }
       
 }
