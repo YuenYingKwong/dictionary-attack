@@ -19,13 +19,13 @@ function checkPassword() {
   for (var x = 0; x < wordsList.length; x++){
     if (password == wordsList[x]) {
         document.getElementById ("results").innerHTML = ("password is bad");
+        break; 
     }   
-    elif (password != wordsList[x]) {
-        document.getElementById ("results").innerHTML = ("meh is ok")
-        break;
-      }
     
-  }
+      }
+      document.getElementById ("results").innerHTML = ("meh is ok")
+      break;
+  
   
   
 }
