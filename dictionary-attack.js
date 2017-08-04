@@ -18,7 +18,7 @@ function checkPassword() {
   var password = document.getElementById ("pw").value;
   for (var x = 0; x < wordsList.length; x++){
     if (password == wordsList[x]);
-        document.getElementById ("results").innerHTML = ("password is bad")
+        document.getElementById ("results").innerHTML = ("password is bad");
         break;
     }
   }
