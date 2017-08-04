@@ -22,7 +22,7 @@ function checkPassword() {
         break; 
     }
     else {
-      document.getElementById("results").innerHTML = "meh is ok";
+      document.getElementById("results").innerHTML = "meh it's ok";
   }
   }
       
