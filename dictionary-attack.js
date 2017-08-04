@@ -20,7 +20,7 @@ function checkPassword() {
     if (password == worldlist[x]);
         document.getElementById ("results").innerHTML = ("password is bad")
       break;
-
+    }
   }
   
   
