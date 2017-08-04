@@ -21,8 +21,10 @@ function checkPassword() {
         document.getElementById ("results").innerHTML = ("password is bad");
         break; 
     }
-  }
+    else {
       document.getElementById ("results").innerHTML = ("meh is ok");
+  }
+      
 }
 
 
